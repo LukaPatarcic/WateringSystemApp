@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1088162116670",
+    "project_id": "wateringsystem-1eb24",
+    "storage_bucket": "wateringsystem-1eb24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088162116670:android:8c179e009bac3dac714d6f",
+        "android_client_info": {
+          "package_name": "com.wateringsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088162116670-7974f7h7rjtmfp9uigqv8kb4jd36i584.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7nlZgRwFJ8LH1_Q7C1j7h9gZe3QGO6O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088162116670-7974f7h7rjtmfp9uigqv8kb4jd36i584.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
