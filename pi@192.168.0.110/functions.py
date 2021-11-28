@@ -4,12 +4,12 @@ import requests
 BASE_URL = "https://watering-system.spolnici.com"
 
 
-def send_message(title, body):
+def send_message(title, description):
     URL = BASE_URL+"/sendMessage"
     data = {
         'notification': {
             'title': title,
-            'body': body
+            'description': description
         }
     }
     requests.post(url=URL, json=data)
