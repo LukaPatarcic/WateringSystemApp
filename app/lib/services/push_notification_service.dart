@@ -1,3 +1,4 @@
+import 'package:app/services/http_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -29,9 +30,9 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 class PushNotificationService {
   // It is assumed that all messages contain a data field with the key 'type'
   Future<void> getToken() async {
-    FirebaseMessaging.instance.getToken().then((value) {
+    FirebaseMessaging.instance.getToken().then((value) async {
       String? token = value;
-      print(token);
+      sendToken(token);
     });
   }
 
